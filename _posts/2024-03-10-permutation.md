@@ -3,6 +3,7 @@ layout: single
 category: 선형대수
 title: "Permutation Matrix"
 use_math: true
+date: 2024-03-11 01:31:33
 ---
 ## Recall: col picture & row picture
 ### col picture

@@ -3,6 +3,7 @@ layout: single
 category: 선형대수
 title: "Elimination Matrix"
 use_math: true
+date: 2024-03-11 01:31:27
 ---
 # Elimination Matrix
 일반적인 연립 일차 방정식의 풀입법을 생각해보자.
