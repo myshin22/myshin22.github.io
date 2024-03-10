@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "행렬이란 무엇인가?"
-mathjax: true
+use_math: true
 ---
 # row picture & column picture
 
