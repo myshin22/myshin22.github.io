@@ -90,3 +90,4 @@ $$\begin{bmatrix}
 즉, $x = 0$, $y = 1$, $z = 2$이다.
 
 
+*해당 노트는 MIT의 Gilbert Strang 교수님의 Linear Algebra 강의를 바탕으로 작성되었습니다.
