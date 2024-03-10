@@ -20,7 +20,7 @@ col 1 & col 2 & col 3 \\
 
 ### row picture
 
-$$\begin {bmatrix} 1\\2\\7 \end{bmatrix} \begin{bmatrix} -row1- \\ -row2- \\ -row3- \end{bmatrix} = 1row1- + 2row2 + 7row3$$ 
+$$\begin {bmatrix} 1\\2\\7 \end{bmatrix} \begin{bmatrix} -row1- \\ -row2- \\ -row3- \end{bmatrix} = 1row1 + 2row2 + 7row3$$ 
 
 - row picture -> left multiplication
 -  col picture -> right multiplication
