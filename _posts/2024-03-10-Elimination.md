@@ -13,12 +13,12 @@ use_math: true
 일반적인 연립 일차 방정식의 풀입법을 생각해보자.
 
 $$ \begin {cases}
-\textcircled{1}\ x+2y+z = 2 \\
-\textcircled{2}\ 3x +8y+z = 12\\
-\textcircled{3}\ 4y+z = 2
+x+2y+z = 2 
+\\ 3x +8y+z = 12\\
+\ 4y+z = 2
 \end{cases}$$
 
-일반적으로 $x$를 제거하기 위하여 $\textcircled{1} *3 - \textcircled{2}$ 를 수행한다.
+일반적으로 $x$를 제거하기 위하여 첫번째 방정식에 3을 곱하여 두번째 방정싱에서 빼 x값을 제거한다. 
 
 계수행렬 $A$만 생각해보자.
 
