@@ -1,11 +1,6 @@
 ---
 layout: single
 category: 선형대수
-tags: 
-    행렬
-    선형대수
-    linear_algebra
-    elimination
 title: "Elimination Matrix"
 use_math: true
 ---
