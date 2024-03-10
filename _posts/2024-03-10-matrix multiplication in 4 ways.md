@@ -3,7 +3,6 @@ layout: single
 category: 선형대수
 title: "Matrix Multiplication in 4 Ways"
 use_math: true
-date: 2024-03-11 01:31:40
 ---
 ## First Way. (row of A) * (col of B)
 

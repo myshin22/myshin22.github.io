@@ -3,7 +3,6 @@ layout: single
 category: 선형대수
 title: "행렬이란 무엇인가?"
 use_math: true
-date: 2024-03-11 01:30:37
 ---
 # row picture & column picture
 
