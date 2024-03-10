@@ -7,8 +7,10 @@ use_math: true
 
 간단한 두 개의 선형 방정식을 생각해보자.
 
-$$2x -y = 0$$
-$$-x +2y = 3$$
+$$ \begin {cases}
+2x -y = 0 \\
+-x +2y = 3
+\end{cases}$$
 
 이를 matrix로 표현하면 다음과 같다.
 
