@@ -19,11 +19,11 @@ $$ AB = C$$
 
 $$\begin {bmatrix} a_{11}&a_{12}&a_{13}\\a_{21}&a_{22}&a_{23}\\a_{31}&a_{32}&a_{33} \end{bmatrix} \begin {bmatrix} b_{11}&b_{12}&b_{13}\\b_{21}&b_{22}&b_{23}\\b_{31}&b_{32}&b_{33} \end{bmatrix} = \begin {bmatrix}c_{11}&c_{12}&c_{13}\\c_{21}&c_{22}&c_{23}\\c_{31}&c_{32}&c_{33} \end{bmatrix}$$
 
-$A$의 column은 각각  $col1= \begin {bmatrix} a_{11} \\ a_{12} \\ a_{13 }\end{bmatrix}$ , $col2= \begin {bmatrix}a_{21}\\ a_{22}\\ a_{23}\end{bmatrix}$, $col3= \begin {bmatrix} a_{31}\\ a_{32}\\ a_{33}\end{bmatrix}$ 이다.
+$A$의 column은 각각  $col1 = \begin {bmatrix} a_{11}\\a_{21}\\a_{31}\end{bmatrix}$, $col2 = \begin {bmatrix} a_{12}\\a_{22}\\a_{32}\end{bmatrix}$, $col3 = \begin {bmatrix} a_{13}\\a_{23}\\a_{33}\end{bmatrix}$ 이다.
 
 column picture는 오른쪽에서부터 multiplication을 한다.
 
-즉, $C$의 $col1 = \begin{bmatrix}c_{11}\\c_{12}\\c_{13}\end{bmatrix}\\= b_{11}\begin{bmatrix}a_{11} \\ a_{12} \\ a_{13}\end{bmatrix} + b_21\begin{bmatrix}a_{21} \\ a_{22} \\ a_{23}\end{bmatrix} + b_31\begin{bmatrix}a_{31} \\ a_{32} \\ a_{33}\end{bmatrix}$ 이다.
+즉, $C$의 $col1 = \begin {bmatrix}c_{11}\\c_{21}\\c_{31}\end{bmatrix} = a_{11}\begin{bmatrix}b_{11}\\b_{21}\\b_{31}\end{bmatrix} + a_{12}\begin{bmatrix}b_{12}\\b_{22}\\b_{32}\end{bmatrix} + a_{13}\begin{bmatrix}b_{13}\\b_{23}\\b_{33}\end{bmatrix}$ 이다.
 
 즉, C의 각 col은 A의 각 column의 linear combination이다.
 
