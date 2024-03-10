@@ -41,7 +41,36 @@ $$
 
 column picture는 오른쪽에서부터 multiplication을 한다.
 
-즉, $C$의 $col1 = \begin{bmatrix}c_{11}\\c_{21}\\c_{31}\end{bmatrix} = a_{11}\begin{bmatrix}b_{11}\\b_{21}\\b_{31}\end{bmatrix} + a_{12}\begin{bmatrix}b_{12}\\b_{22}\\b_{32}\end{bmatrix} + a_{13}\begin{bmatrix}b_{13}\\b_{23}\\b_{33}\end{bmatrix}$ 이다.
+$$
+C의 \; col1 = 
+\begin{bmatrix}
+c_{11} \\
+c_{21} \\
+c_{31}
+\end{bmatrix} 
+= 
+a_{11} 
+\begin{bmatrix}
+b_{11} \\
+b_{21} \\
+b_{31}
+\end{bmatrix} 
++ 
+a_{12} 
+\begin{bmatrix}
+b_{12} \\
+b_{22} \\
+b_{32}
+\end{bmatrix} 
++ 
+a_{13} 
+\begin{bmatrix}
+b_{13} \\
+b_{23} \\
+b_{33}
+\end{bmatrix}
+$$
+
 
 즉, $C$의 각 column은 $A$의 각 column의 linear combination이다.
 
