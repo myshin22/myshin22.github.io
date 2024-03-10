@@ -1,5 +1,10 @@
 ---
 layout: single
+category: 선형대수
+tags: 
+    -행렬
+    -선형대수
+    -linear algebra
 title: "행렬이란 무엇인가?"
 use_math: true
 ---
