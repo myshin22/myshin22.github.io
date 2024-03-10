@@ -2,9 +2,9 @@
 layout: single
 category: 선형대수
 tags: 
-    -행렬
-    -선형대수
-    -linear algebra
+    행렬
+    선형대수
+    linear_algebra
 title: "행렬이란 무엇인가?"
 use_math: true
 ---
@@ -62,9 +62,11 @@ $\begin{bmatrix}
 
 마찬가지로 3 개의 선형 방정식을 생각해보자.
 
-$$2x -y = 0$$
-$$-x +2y-z = -1$$
-$$-3y+4z = 4$$
+$$ \begin {cases}
+2x -y = 0\\
+-x +2y-z = -1\\
+-3y+4z = 4
+\end{cases}$$
 
 이를 matrix로 표현하면 다음과 같다.
 
@@ -207,3 +209,5 @@ $$1\begin{bmatrix}
 \end{bmatrix}$$
 
 (이때, $Ax$ 는 $A$ columns의  linear combination으로 나타난다.)
+
+*해당 노트는 MIT의 Gilbert Strang 교수님의 Linear Algebra 강의를 바탕으로 작성되었습니다.
