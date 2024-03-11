@@ -23,9 +23,9 @@ $R^T R$은 항상 $symmetric$이다.
 
 (ex)
 
-$R^T R = \begin{bmatrix} 1 & 3 \\ 2 & 3 \\ 4 & 1 \end{bmatrix}\begin{bmatrix} 1 & 2 & 4 \\ 3 & 3 & 1\end{bmatrix} = \begin{bmatrix} 10 & 11 & 7 \\ 11 & 13 & 11 \\ 7 & 11 & 17 \end{bmatrix}$
+$$R^T R = \begin{bmatrix} 1 & 3 \\ 2 & 3 \\ 4 & 1 \end{bmatrix}\begin{bmatrix} 1 & 2 & 4 \\ 3 & 3 & 1\end{bmatrix} = \begin{bmatrix} 10 & 11 & 7 \\ 11 & 13 & 11 \\ 7 & 11 & 17 \end{bmatrix}$$
 
-$(R^T R)^T = R^T R^{TT}= R^TR$
+$$(R^T R)^T = R^T R^{TT}= R^TR$$
 
 ## Vector Spaces
 $R^2$는 = 2D real vectors
@@ -45,11 +45,11 @@ vector space는 덧셈과 스칼라 곱에 대하여 닫혀 있어야 한다. \
 ## Not a Vector Space 
 
 (ex) 4 분면 중에 제 1사분면만 포함하는 경우  
-$\begin{bmatrix} 3 \\ 2 \end{bmatrix}$ + $\begin{bmatrix} 3 \\ 2 \end{bmatrix}$, $3\begin{bmatrix} 3 \\ 2 \end{bmatrix}$ 
+$$\begin{bmatrix} 3 \\ 2 \end{bmatrix} + \begin{bmatrix} 3 \\ 2 \end{bmatrix}, 3\begin{bmatrix} 3 \\ 2 \end{bmatrix}$$ 
 
 더하거나 양수를 곱하는 건 가능하지만, 
 
-$-5\begin{bmatrix} 3 \\ 2 \end{bmatrix}$
+$$-5\begin{bmatrix} 3 \\ 2 \end{bmatrix}$$
 
 음수를 곱하면, 해당 범위에서 나가 제 3사분면으로 가게 된다. \
 따라서 이 경우는 $vector\;space$가 아니다.
@@ -57,7 +57,7 @@ $-5\begin{bmatrix} 3 \\ 2 \end{bmatrix}$
 ## Subspace
 a vecoter space inside $R^2$에 대해 생각해보자. 
 
-$\begin{bmatrix} 3 \\ 2 \end{bmatrix}$ + $\begin{bmatrix} 3 \\ 2 \end{bmatrix}$, $3\begin{bmatrix} 3 \\ 2 \end{bmatrix}$,$-5\begin{bmatrix} 3 \\ 2 \end{bmatrix}$ 
+$$\begin{bmatrix} 3 \\ 2 \end{bmatrix} + \begin{bmatrix} 3 \\ 2 \end{bmatrix},3\begin{bmatrix} 3 \\ 2 \end{bmatrix},-5\begin{bmatrix} 3 \\ 2 \end{bmatrix}$$ 
 
 모두 한 직선 위에 존재한다.\
 즉, 덧셈과 스칼라 곱에 대하여 닫혀 있으므로, 이 직선은 $subspace$이다.
@@ -65,19 +65,19 @@ $\begin{bmatrix} 3 \\ 2 \end{bmatrix}$ + $\begin{bmatrix} 3 \\ 2 \end{bmatrix}$,
 *모든 subspace는 원점을 포함해야 한다.
 
 ## Subspace of $R^2$
-1) $R^2$ 전체
-2) $\begin{bmatrix} 0 \\ 0 \end{bmatrix}$ 을 통과하는 직선
-3) zero vector, $\begin{bmatrix} 0 \\ 0 \end{bmatrix}$
+- $R^2$ 전체
+-  $\begin{bmatrix} 0 \\ 0 \end{bmatrix}$ 을 통과하는 직선
+-  zero vector, $\begin{bmatrix} 0 \\ 0 \end{bmatrix}$
 
 ## Subspace of $R^3$
-1) $R^3$ 전체
-2) $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$ 을 통과하는 평면
-3) $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$ 을 통과하는 직
-4) zero vector, $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$
+- $R^3$ 전체
+-  $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$ 을 통과하는 평면
+-  $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$ 을 통과하는 직
+-  zero vector, $\begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$
 
 ## Column Space
 
-$A = \begin{bmatrix} 1 & 3 \\ 2 & 3 \\ 4 & 1 \end{bmatrix}$
+$$A = \begin{bmatrix} 1 & 3 \\ 2 & 3 \\ 4 & 1 \end{bmatrix}$$
 
 A의 $column$은 $R^3$ 안에 존재한다. 
 
