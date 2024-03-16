@@ -33,7 +33,9 @@ $\{X_n\}$이 common mean $\mu\in R$과 variance $\sigma^2<\infty$을 갖는 iid 
 
 >$$\bar{X_n} \overset{p}{\to} \mu$$
 
-(proof) $E(\bar{X_n}) = \mu, Var(\bar{X_n}) = \frac{\sigma^2}{n}$ 이고, $\epsilon > 0$ 일 때, 체비셰프 부등식에 의하여 
+(proof) $E(\bar{X_n}) = \mu, Var(\bar{X_n}) = \frac{\sigma^2}{n}$ 이고, $\epsilon > 0$ 일 때, 체비셰프 부등식에 의하여
+
+$$cf)\  P(|X - \mu| \geq \alpha) \leq \frac{var(X)}{\alpha^2} $$
 
 $$P(|\bar{X_n} - \mu| \geq \epsilon) \leq \frac{\sigma^2}{n\epsilon^2} \to 0 \\(\because \sigma, \epsilon \ \  constant )$$
 
