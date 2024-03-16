@@ -45,10 +45,10 @@ $$P(|\bar{X_n} - \mu| \geq \epsilon) \leq \frac{\sigma^2}{n\epsilon^2} \to 0 \\(
 
 ## proof of markov's inequality & chebyshev's inequality
 ### markov's inequality
->$$ P(x \geq \alpha) \leq \frac{E(x)}{\alpha}$$
+$$ P(x \geq \alpha) \leq \frac{E(x)}{\alpha}$$
 X에 대한 기댓값은 다음과 같다. 
 
-$$ E(x) = \int_{0}^{\infty} x f(x) dx $$
+>$$ E(x) = \int_{0}^{\infty} x f(x) dx $$
 
 이를 $\alpha$를 기준으로 나눠 쓸 수 있다. 
 
@@ -65,7 +65,7 @@ $$ E(x) \geq \alpha \int_{\alpha}^{\infty}f(x)dx = \alpha P(x \geq \alpha) $$
 $$\therefore P(x \geq \alpha) \leq \frac{E(x)}{\alpha}$$
 
 ### chebyshev's inequality
->임의의 r.v. $X$와 $\alpha > 0$에 대하여 다음이 성립한다.
+임의의 r.v. $X$와 $\alpha > 0$에 대하여 다음이 성립한다.
 
 >$$ P(|X - \mu| \geq \alpha) \leq \frac{var(X)}{\alpha^2} $$
 
