@@ -8,7 +8,7 @@ use_math: true
 
 $$ X_n \overset{p}{\to} X $$
 
-${X_n}$이 r.v. sequence이고, $X$가 sample space에서 정의된 r.v.일 때, 모든 \epsilon > 0에 대하여  $X_n$ convergences in probability to X
+${X_n}$이 r.v. sequence이고, $X$가 sample space에서 정의된 r.v.일 때, 모든 $\epsilon > 0$에 대하여  $X_n$ convergences in probability to X
 
 >$$lim_{n \to \infty} P(|X_n - X| > \epsilon) = 0 $$
 
