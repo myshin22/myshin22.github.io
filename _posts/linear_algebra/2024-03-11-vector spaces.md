@@ -43,7 +43,7 @@ vector space는 덧셈과 스칼라 곱에 대하여 닫혀 있어야 한다. \
 
 
 ## Not a Vector Space 
-![fig1. 4 분면 중에 제 1사분면만 포함하는 경우](/assets/images/vector_space.png)
+![fig1. 4 분면 중에 제 1사분면만 포함하는 경우](/assets/images/vector_space_1.png)
 
 (ex) 4 분면 중에 제 1사분면만 포함하는 경우  
 $$\begin{bmatrix} 3 \\ 2 \end{bmatrix} + \begin{bmatrix} 3 \\ 2 \end{bmatrix}, 3\begin{bmatrix} 3 \\ 2 \end{bmatrix}$$ 
