@@ -29,6 +29,8 @@ $$ P( (X_n - X)^2 \geq c) \leq \frac{E(X_n - X)^2}{c} \to 0$$
 에서 $P( (X_n - X)^2 \geq c) \to 0$ 가 된다. 
 
 ### (2) Weak law of large numbers (WLLN)
+임의의 확률변수의 표본 평균이 그 확률변수의 기댓값(모평균)에 확률적으로 수렴한다. 
+
 $\{X_n\}$이 common mean $\mu\in R$과 variance $\sigma^2<\infty$을 갖는 iid r.v. 이고,  $\bar{X_n} = n^{-1}\sum_{i=1}^{n}X_i$ 일 때,
 
 >$$\bar{X_n} \overset{p}{\to} \mu$$
