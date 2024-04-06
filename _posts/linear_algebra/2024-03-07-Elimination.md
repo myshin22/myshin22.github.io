@@ -5,7 +5,7 @@ title: "Elimination Matrix"
 use_math: true
 ---
 # Elimination Matrix
-일반적인 연립 일차 방정식의 풀입법을 생각해보자.
+일반적인 연립 일차 방정식의 풀이법을 생각해보자.
 
 $$ \begin {cases}
 x+2y+z = 2 
