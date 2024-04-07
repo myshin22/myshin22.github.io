@@ -56,9 +56,16 @@ $$E_{32}E_{21} = \begin {bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & -2 & 1 \end{bmat
 
 
 
-오른쪽 행렬의 첫 열 $\begin{bmatrix}0 & 1\end{bmatrix}$은 $\begin{bmatrix}a & c\end{bmatrix}$에서 아무것도 가져오지 않고, $\begin{bmatrix}b& d\end{bmatrix}$에서 하나를 가져온다. 라고 해석할 수 있다.
+오른쪽 행렬의 첫 행 $\begin{bmatrix}0 & 1\end{bmatrix}$은 
+$$ \begin{bmatrix}a \\ c\end{bmatrix}$$ 
 
-두 번째 열 $\begin{bmatrix}1 & 0\end{bmatrix}$은 $\begin{bmatrix}a & c\end{bmatrix}$에서 하나를 가져오고, $\begin{bmatrix}b & d\end{bmatrix}$에서 아무것도 가져오지 않는다. 라고 해석할 수 있다.
+에서 아무것도 가져오지 않고, 
+
+$$\begin{bmatrix}b \\ d\end{bmatrix}$$
+
+에서 하나를 가져온다. 라고 해석할 수 있다.
+
+두 번째 행 $\begin{bmatrix}1 & 0\end{bmatrix}$은 $\begin{bmatrix}a & c\end{bmatrix}$에서 하나를 가져오고, $\begin{bmatrix}b & d\end{bmatrix}$에서 아무것도 가져오지 않는다. 라고 해석할 수 있다.
 
 즉, 좌측 행렬의 열을 바꾸는 것이다.
 
@@ -67,9 +74,13 @@ $$E_{32}E_{21} = \begin {bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & -2 & 1 \end{bmat
 $$\begin{bmatrix}0 & 1\\1 & 0\end{bmatrix} \begin{bmatrix}a & b\\c & d\end{bmatrix} = \begin{bmatrix}c & d\\a & b\end{bmatrix}$$
 
 
-왼쪽 행렬의 첫 행 $\begin{bmatrix}0 & 1\end{bmatrix}$은 $\begin{bmatrix}a & b\end{bmatrix}$ 에서 아무것도 가져오지 않고, $\begin{bmatrix}c & d\end{bmatrix}$에서 하나를 가져온다. 라고 해석할 수 있다. 
+왼쪽 행렬의 첫 열 
+$$\begin{bmatrix}0 \\ 1\end{bmatrix}$$
+은 $\begin{bmatrix}a & b\end{bmatrix}$ 에서 아무것도 가져오지 않고, $\begin{bmatrix}c & d\end{bmatrix}$에서 하나를 가져온다. 라고 해석할 수 있다. 
 
-두 번째 행 $\begin{bmatrix}1 & 0\end{bmatrix}$은 $\begin{bmatrix}a & b\end{bmatrix}$에서 하나를 가져오고, $\begin{bmatrix}c & d\end{bmatrix}$에서 아무것도 가져오지 않는다. 라고 해석할 수 있다.
+두 번째 열 
+$$ \begin{bmatrix}1 \\ 0\end{bmatrix} $$
+은 $\begin{bmatrix}a & b\end{bmatrix}$에서 하나를 가져오고, $\begin{bmatrix}c & d\end{bmatrix}$에서 아무것도 가져오지 않는다. 라고 해석할 수 있다.
 
 즉, 우측 행렬의 행을 바꾸는 것이다.
 

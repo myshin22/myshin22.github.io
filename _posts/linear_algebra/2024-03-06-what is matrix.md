@@ -1,7 +1,7 @@
 ---
 layout: single
 category: 선형대수
-title: "행렬이란 무엇인가?"
+title: "what is matrix?"
 use_math: true
 ---
 # row picture & column picture
