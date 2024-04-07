@@ -38,7 +38,7 @@ $X = c\begin{bmatrix} -2 \\ 1 \\ 0 \\ 0 \end{bmatrix}$
 
 $X = c\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1\end{bmatrix}$
 
-따라서, null space는 $X=c_1\begin{bmatrix} -2 \\ 1 \\ 0 \\0 \end{bmatrix} + c_2\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1\end{bmatrix}$이다.
+따라서, null space는 $X=c_1\begin{bmatrix} -2 \\ 1 \\ 0 \\ 0 \end{bmatrix} + c_2\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1\end{bmatrix}$이다.
 
 ## Reduced Row Echelon Form(1)
 $$ \begin{bmatrix} 1 & 2 & 2 & 2 \\ 0 & 0 & 2 & 4 \\ 0 & 0 & 0 & 0 \\ \end{bmatrix} \\ \to \begin{bmatrix} 1 & 2 & 0 & -2 \\ 0 & 0 & 2 & 4 \\ 0 & 0 & 0 & 0 \\ \end{bmatrix} \\ \to \begin{bmatrix} 1 & 2 & 0 & -2 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 \\ \end{bmatrix} = R = rref(A) $$
@@ -51,15 +51,25 @@ $$ \begin{bmatrix} 1 & 2 & 2 & 2 \\ 0 & 0 & 2 & 4 \\ 0 & 0 & 0 & 0 \\ \end{bmatr
 - pivot column: 1,3열
 - pivot row: 1,2행
 
-$\begin{bmatrix} 1 & 0 \\ 0 & 1 \\ \end{bmatrix} = I$가 pivot row와 pivot column 안에 있다. 
+$$\begin{bmatrix} 1 & 0 \\ 0 & 1 \\ \end{bmatrix} = I$$
 
-$\begin{bmatrix} 1 & 2 & 0 & -2 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 \\ \end{bmatrix}$를 pivot columns와 free columns로 나누어 표현하면, 
+가 pivot row와 pivot column 안에 있다. 
 
-$\begin{bmatrix} 1 & 0 & 2 & -2 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 0 & 0 \\ \end{bmatrix}$ = $\begin{bmatrix} I & F  \\ 0 & 0  \\ \end{bmatrix}$
+$$ \begin{bmatrix} 1 & 2 & 0 & -2 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 \\ \end{bmatrix} $$
 
-여기서 $F= \begin{bmatrix} 2 & -2 \\ 0 & 2 \\ \end{bmatrix}$는
+를 pivot columns와 free columns로 나누어 표현하면, 
 
-$X=c_1\begin{bmatrix} -2 \\ 1 \\ 0 \\0 \end{bmatrix} + c_2\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1\end{bmatrix}$의 free column에 대응하는 부분인 1행과 3행에서  $-F$ 형태로 나타난다. 
+$$ \begin{bmatrix} 1 & 0 & 2 & -2 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 0 & 0 \\ \end{bmatrix}  = \begin{bmatrix} I & F  \\ 0 & 0  \\ \end{bmatrix} $$
+
+여기서 
+
+$$ F= \begin{bmatrix} 2 & -2 \\ 0 & 2 \\ \end{bmatrix} $$
+
+는
+
+$$ X=c_1\begin{bmatrix} -2 \\ 1 \\ 0 \\0 \end{bmatrix} + c_2\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1\end{bmatrix} $$
+
+의 free column에 대응하는 부분인 1행과 3행에서  $-F$ 형태로 나타난다. 
 
 ## Reduced Row Echelon Form(2)
 
@@ -82,7 +92,7 @@ $$A^T = \begin{bmatrix} 1 & 2 & 3  \\ 2 & 4 & 6 \\ 2 & 6 & 8 \\ 2 & 8 & 10  \end
 
 pivot column = 1,2열, free column = 3열
 
-x = $\begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix}$
+$$ x = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} $$
 
 free variable $x_3 = 1$을 대입하면, 
 
