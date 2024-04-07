@@ -8,8 +8,8 @@ use_math: true
 ## Permutations
 $P$ matrix 는 row를 exchange한다. 
 
-$$A = LU $$
 $$P A = LU$$
+P는 A의 row를 교환하여 L,U로 분해가 가능하도록 한다. 
 
 n*n matrix에 대하여 가능한 경우의 수는 $n!$ 이다.
 
