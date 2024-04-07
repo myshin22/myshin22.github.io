@@ -22,7 +22,7 @@ rank of A = number of pivots = 2
 ## X
 vector X에서 free column에 대응하는 2,4 행에는 임의의 수를 배정한다. 
 
-$X = \begin{bmatrix} \Box \\ 1 \\ \Box \\0 \end{bmatrix}$
+$X = \begin{bmatrix} \Box \\ 1 \\ \Box \\ 0 \end{bmatrix}$
 
 uX = 0 에서 $x_2 = 1, x_4 = 0$ 를 대입한다. 
 
@@ -32,7 +32,7 @@ $0+0+ 2 x_3 + 4x_4 = 0$
 
 식을 전개하면 $x_1 = -2, x_3 =0$ 임을 알수 있다. 따라서, 
 
-$X = c\begin{bmatrix} -2 \\ 1 \\ 0 \\0 \end{bmatrix}$
+$X = c\begin{bmatrix} -2 \\ 1 \\ 0 \\ 0 \end{bmatrix}$
 
 또 다른 임의의 수를 free variable에 대입하여 $x_2 = 0, x_4 = 1$을 대입하면, 위와 같은 방법으로 $x_1 = 2, x_3 = -2$임을 알 수 있다.
 
